@@ -9,19 +9,23 @@
     <h1>Currency Converter</h1>
 
 <div>
-  <form action="convertor.php">
-    
-    <label for="lname">Amount</label>
-    <input type="text" id="Camount" name="Amount" placeholder="Amount Eur">
+  <form action="convertor.php" method="post">
 
-    <label for="country">Country</label>
-    <select id="Currency" name="Currency">
-        <option value="USD" selected >USD</option>
-        <option value="AUD">AUD</option>
-        <option value="SGD">SGD</option>
+    <label name="amount">Amount</label>
+    <input type="text" id="Camount" name="amount" placeholder="Amount">
+    
+    <select name='cur1'>
+        <option value="EUR">EUR</option>
+        </select>
+
+    <label for="country">Currency</label>
+    <select id="Currency" name="cur">
+        <option value="IDR" selected >IDR (Indonesian IDR) </option>
+        <option value="AUD">AUD (Australian Dollar)</option>
+        <option value="USD">USD (American  Dollar)</option>
     </select>
   
-    <input type="submit" value="Submit">
+    <input type="submit" name="submit" value="Submit">
   </form>
 </div>
 </body>
