@@ -14,7 +14,7 @@
       
       input[type=submit] {
         width: 100%;
-        background-color: #3c6ba0;
+        background-color: #4183b9;
         color: white;
         padding: 14px 20px;
         margin: 8px 0;
@@ -24,15 +24,26 @@
       }
       
       input[type=submit]:hover {
-        background-color: #4e4ca7;
+        background-color: #4089a7;
       }
       
       div {
         border-radius: 5px;
-        background-color: #dacdcd;
+        background-color: #a8d5d6;
         padding: 20px;
         width: 500px;
         height: 300px;
+      }
+
+      h1{
+         
+          margin-left:70px;
+          font-size: 40px;
+          color: #2b76b3;
+          margin-top: 30px;
+          
+
+          
       }
 
       
