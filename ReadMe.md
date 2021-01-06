@@ -1,6 +1,5 @@
 # php-Currency Converter :money_with_wings:
-A simple currency converter I made for calculate converter to check how many Euros that way-too-expensive for our holiday, only for few country
- and this simple exercise is still without API.
+A simple currency converter I made for calculate converter to check how many Euro that way-too-expensive in my holiday,but this is only for few country  and I choose EURO to convert  with IDR (indonesian Rupiah ), USD, AUD and BATH (Thai bath). and this exercise is still very simple i do it without API yet.
 
 # Must-have features
 
