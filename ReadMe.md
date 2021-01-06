@@ -1,5 +1,6 @@
 # php-Currency Converter :money_with_wings:
-we need to build calculate converter to check how many Euros that way-too-expensive for our holiday,:smiley:
+A simple currency converter I made for calculate converter to check how many Euros that way-too-expensive for our holiday,only for few country
+this simple exercise is still without API.:smiley:
 
 # Must-have features
 
