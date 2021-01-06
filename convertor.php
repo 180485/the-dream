@@ -1,5 +1,5 @@
-<?php 
 
+<?php 
 
 if(isset($_POST['submit'])){
 	
@@ -9,22 +9,27 @@ $cur1 = $_POST['cur1'];
 
 }
 
-if($cur == "IDR"){ 
-    echo "Your Converted Amount is: <br />";
-    echo $amount*17.173 . " ". "IDR" ;
+//converter for EURO
+if($cur == "IDR" AND $cur1=="EUR"){ 
+    echo "<h2>Your Converted Amount is:</h2>";
+    echo "<h3>" .$amount * 17.172,81 . " ". "IDR"."</h3>" ;
 
 
-}else if ($cur =="AUD"){
-    echo "Your Converted Amount is: <br />";
-    echo $amount*1.58 . " ". "AUD" ;
+}else if ($cur =="AUD" AND $cur1=="EUR"){
+    echo "<h2>Your Converted Amount is:</h2>";
+    echo "<h3>". $amount * 1.58 ." ". "AUD" ."</h3>" ;
 
 
 
-}else if($cur=="USD"){
-    echo "Your Converted Amount is: <br />";
-    echo $amount*1.26 . " ". "USD" ;
+}else if($cur=="USD"AND $cur1=="EUR"){
+    echo "<h2>Your Converted Amount is:</h2>";
+    echo "<h3>" . $amount * 1.26 . " ". "USD" ."</h3>" ; ; 
+
+}else if($cur=="THB" AND $cur1=="EUR"){
+    echo "<h2>Your Converted Amount is:</h2>";
+    echo "<h3>" . $amount * 36,82 . " ". "THB" ."</h3>" ;;
+
 }
 
 
 
-?>
