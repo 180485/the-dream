@@ -11,10 +11,10 @@ A simple currency converter I made for calculate converter to check how many Eur
 - Visual Studio Code
 - XAMPP
 
-# Result :iphone:
-[Converter](http://localhost:8080/becode/The%20dream/)
+## Result :iphone:
+[ Currency Converter](http://localhost:8080/becode/The%20dream/)
 
-# :pray: Thanks to
+## :pray: Thanks to
 [BeCode](https://github.com/becodeorg)
 
 
