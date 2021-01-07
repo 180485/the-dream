@@ -6,7 +6,6 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
   
-    <link href="style.css" rel="stylesheet" />
     <title>Currency Converter</title>
 </head>
 <body>
