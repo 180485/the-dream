@@ -56,8 +56,7 @@
     <input type="text" id="Camount" name="amount" placeholder="Amount">
    
     <select name='cur1'>
-        <option value="EUR">🇪🇺 EUR (Euro)</option>
-        <option value="USD"> 🇺🇸 USD (American  Dollar)</option>
+        <option value="EUR">🇪🇺 EUR (Euro)</option> body
         </select>
     
     <label for="country">Converted to</label>
