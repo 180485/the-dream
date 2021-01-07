@@ -28,25 +28,25 @@
 //converter for EURO
   if($cur=="USD"){
     echo "<h2>"."Exhange Rate : "."$" . " " .$amount * 1.26 . " "." </h2>";
-    echo "<p style='color:#163a0c;'>" . "1 EUR = 1.26 USD" ."</p>";
+    echo "<p style='color:#589946;'>" . "1 EUR = 1.26 USD" ."</p>";
       
 
     }else if ($cur =="AUD" ){
       echo "<h2>"."Exhange Rate : "."$" . " "  .$amount * 1.58 . " " ." </h2>";
-      echo "<p style='color:#163a0c;'>" . "1 EUR = 1.58 AUD" ."</p>";
+      echo "<p style='color:#589946;'>" . "1 EUR = 1.58 AUD" ."</p>";
        
     }else if($cur == "IDR" ){ 
       echo "<h2>"."Exhange Rate : " ."Rp". " " .$amount * 17.172 . " ". "IDR" ." </h2>";
-      echo "<p style='color:#163a0c;'>" . "1 EUR =  Rp 17.172 IDR " ."</p>";
+      echo "<p style='color:#589946;'>" . "1 EUR =  Rp 17.172 IDR " ."</p>";
        
     }else if($cur=="THB"){
        echo "<h2>"."Exhange Rate : " . $amount * 36,82 . " ". "THB" ." </h2>";
-       echo "<p style='color:#163a0c;'>" . "1 EUR = 36.82 Thai Baht" ."</p>";
+       echo "<p style='color:#589946'>" . "1 EUR = 36.82 Thai Baht" ."</p>";
     
 
     }else if($cur=="BRL"){
       echo "<h2>"."Exhange Rate : " . $amount * 6,55 . " ". "BRL" ." </h2>";
-      echo "<p style='color:#163a0c;'>" . "1 EUR = 6,55 Brazilian Real " ."</p>";
+      echo "<p style='color:#589946;'>" . "1 EUR = 6,55 Brazilian Real " ."</p>";
 
     }
 
